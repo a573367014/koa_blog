@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "node --experimental-modules ./src/app.mjs",
+    "test": "node --experimental-modules ./test.mjs"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-jwt": "^3.3.0",
+    "koa-router": "^7.3.0",
+    "mysql": "^2.15.0",
+    "validator": "^9.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0"
+  }
+}
