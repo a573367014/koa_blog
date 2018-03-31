@@ -15,4 +15,4 @@ const dbPromisify = function (fn) {
    };
 };
 
-export {resultFormat, dbPromisify};
+export { resultFormat, dbPromisify };

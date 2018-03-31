@@ -1,4 +1,5 @@
 {
+  "main": "./src/app.mjs",
   "scripts": {
     "start": "node --experimental-modules ./src/app.mjs",
     "test": "node --experimental-modules ./test.mjs"
